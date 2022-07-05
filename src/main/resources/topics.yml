@@ -1,0 +1,12 @@
+deployment:
+  name: "dart-pipeline"
+  bootstrap_servers:
+    - kafka:19092
+  topics:
+    - topic:
+        name: "ingestion"
+        num_partitions: 3
+        cleanup_policy: "compact"
+        compression_type: "gzip"
+        max_message_bytes: 15000000
+        retention_ms: 5184000000

@@ -1,0 +1,1280 @@
+{
+    "capture_source": "AutoCollection",
+    "extracted_metadata":
+    {
+        "CreationDate": "1980-08-30",
+        "ModDate": "2020-10-25",
+        "Author": "George C. Wilson",
+        "Type": "article",
+        "Description": "The Carter administration's plan to sell Somalia U.S. arms in exchange for using Somali ports will end up causing more trouble than it's worth, the House Foreign Affairs subcommittee on Africa has told Secretary of State Edmund S. Muskie.\n\nSeven of the subcommittee's eight members said in their letter that the $20 million in fiscal 1980 funds the administration wants to transfer from other accounts to start the arms flow should not be shifted.",
+        "OriginalLanguage": "en",
+        "Classification": "UNCLASSIFIED",
+        "Title": "7 on Hill Panel Tell Muskie They Oppose Somalia Aid",
+        "Publisher": "Washington Post",
+        "Producer": "Dow Jones"
+    },
+    "content_type": "application/json",
+    "document_id": "0a0cc95502d39df6390feccff38f498d",
+    "extracted_text": "The Carter administration's plan to sell Somalia U.S. arms in exchange for using Somali ports will end up causing more trouble than it's worth, the House Foreign Affairs subcommittee on Africa has told Secretary of State Edmund S. Muskie.\n\nSeven of the subcommittee's eight members said in their letter that the $20 million in fiscal 1980 funds the administration wants to transfer from other accounts to start the arms flow should not be shifted.\nThe Foreign Affairs subcommittee does not have the authority to stop the reprogramming; the congressional appropriations committees do. They have not yet acted.\n\nBecause there are already new base agreements with Kenya and Oman, and ones in negotiation with Egypt, the subcommittee wrote Muskie, use of the Somali ports of Berbera and Mogadishu \"would appear to add little to our regional military capabilities.\"\n\nOnce the United States establishes a military presence in Somalia, the subcommittee said in the letter sent to Muskie Thursday, the Soviet Union may press Ethiopia for comparable facilities in that country.\n\nOther dangers of U.S. military links to Somalia, the subcommittee wrote, include exacerbation of the Somali-Ethiopian conflict over Ethiopia's Ogaden; U.S. involvement in a regional war and estrangement of the United States \"from the economically, politically and militarily important African states who overwhelmingly oppose Somalia's efforts in the Ogaden.\"\n\nOnly Rep. John Buchanan (R-Ala.) did not sign the letter.\n\nSomalia has been fighting since 1974 to annex Ethiopia's Ogaden district.\n\nAlthough the State Department insists Somalia has given up on the idea of a military takeover and no longer has a significantly body of troops in the Ogaden, the Central Intelligence Agency told the subcommitte this week that elements of three Somali battalions, plus up to 1,000 Somali regulars serving with insurgents, still appear to be in the Ogaden.\n\n\"Despite its written and verbal assurances to the contrary,\" the subcommittee wrote Muskie, \"Somalia remains deeply and intimately involved in the armed struggle which continues to rage in the Ethiopian Ogaden.\"\n\nIf the United States established a military presence in Somalia and the long conflict with Ethiopia heats up, the subcommittee reasoned, American leaders would be faced with abandoning its new friend or becoming involved in regional warfare.\n\nGiven Somalia's continued military action in the Ogaden, and the risks posed to the United States from escalation, the subcommittee said the administrations plan to reprogram $20 million should not go forward.\n\nChairman Stephen J. Solarz (D-N.Y.) said if State ignores the subcommittee he will move to change the law to make such objections binding.\n\nThe House and Senate Appropriations committees, under the 1979 law covering foreign military sales, can stop such a reprogramming request at the $20 million for Somalia. Each must give its \"written prior approval\" before the action can go forward.\n\nThe subcommittee letter leaves the door open for going along with the reprogramming later if State can provide better assurances that Somali regulars are out of the Ogaden and will stay out.\n\nSubcommittee members have said that Richard M. Moose, assistant secretary of State for African affairs, and the CIA gave conflicting reports earlier this week on the extent of the Somalia military presence in the Ogaden.\n\nState Department spokesman John Trattner insisted Thursday that there was \"no real difference\" between the State and CIA reports, but refused to provide figures. Solarz said, \"I deplore\" that the CIA figures given to the subcommittee in secret were publicly disclosed.",
+    "uri": "http://graph.causeex.com/documents/sources#0a0cc95502d39df6390feccff38f498d",
+    "source_uri": "WP00000020201025dc8u006vi",
+    "extracted_ntriples": "<http://graph.causeex.com/documents/sources#0a0cc95502d39df6390feccff38f498d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.causeex.com/ontology/odps/DataProvenance#Document> .\n<http://graph.causeex.com/documents/sources#0a0cc95502d39df6390feccff38f498d> <http://ontology.causeex.com/ontology/odps/DataProvenance#has_capture_source> <http://ontology.causeex.com/ontology/odps/DataProvenance#AutoCollection> .\n<http://graph.causeex.com/documents/sources#0a0cc95502d39df6390feccff38f498d> <http://ontology.causeex.com/ontology/odps/DataProvenance#original_source> \"WP00000020201025dc8u006vi\" .\n<http://graph.causeex.com/documents/sources#0a0cc95502d39df6390feccff38f498d> <http://ontology.causeex.com/ontology/odps/GeneralConcepts#canonical_label> \"0a0cc95502d39df6390feccff38f498d\" .\n<http://graph.causeex.com/documents/sources#0a0cc95502d39df6390feccff38f498d> <http://ontology.causeex.com/ontology/odps/DataProvenance#time_retrieved> \"2021-07-16T14:31:21\"^^<http://www.w3.org/2001/XMLSchema#dateTime> .\n<http://graph.causeex.com/documents/sources#0a0cc95502d39df6390feccff38f498d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologyrepository.com/CommonCoreOntologies/article> .\n<http://graph.causeex.com/documents/sources#0a0cc95502d39df6390feccff38f498d> <http://ontology.causeex.com/ontology/odps/DataProvenance#has_document_type> <http://ontology.causeex.com/ontology/odps/DataProvenance#Unstructured> .\n<http://graph.causeex.com/documents/sources#0a0cc95502d39df6390feccff38f498d> <http://ontology.causeex.com/ontology/odps/DataProvenance#date_created> \"1980-08-30\" .\n<http://graph.causeex.com/documents/sources#0a0cc95502d39df6390feccff38f498d> <http://ontology.causeex.com/ontology/odps/DataProvenance#date_modified> \"2020-10-25\" .\n<http://graph.causeex.com/documents/sources#0a0cc95502d39df6390feccff38f498d> <http://ontology.causeex.com/ontology/odps/DataProvenance#title> \"7 on Hill Panel Tell Muskie They Oppose Somalia Aid\" .\n<http://graph.causeex.com/documents/sources#0a0cc95502d39df6390feccff38f498d> <http://ontology.causeex.com/ontology/odps/DataProvenance#author> \"George C. Wilson\" .\n<http://graph.causeex.com/documents/sources#0a0cc95502d39df6390feccff38f498d> <http://ontology.causeex.com/ontology/odps/DataProvenance#publisher> \"Washington Post\" .\n<http://graph.causeex.com/documents/sources#0a0cc95502d39df6390feccff38f498d> <http://ontology.causeex.com/ontology/odps/DataProvenance#description> \"The Carter administration's plan to sell Somalia U.S. arms in exchange for using Somali ports will end up causing more trouble than it's worth, the House Foreign Affairs subcommittee on Africa has told Secretary of State Edmund S. Muskie.\\n\\nSeven of the subcommittee's eight members said in their letter that the $20 million in fiscal 1980 funds the administration wants to transfer from other accounts to start the arms flow should not be shifted.\" .\n<http://graph.causeex.com/documents/sources#0a0cc95502d39df6390feccff38f498d> <http://ontology.causeex.com/ontology/odps/DataProvenance#language> \"en\" .\n<http://graph.causeex.com/documents/sources#0a0cc95502d39df6390feccff38f498d> <http://ontology.causeex.com/ontology/odps/DataProvenance#classification> \"UNCLASSIFIED\" .\n",
+    "timestamp": "2021-07-16T14:31:21.000Z",
+    "annotations":
+    [
+        {
+            "type": "facets",
+            "label": "factiva-subjects",
+            "version": "1",
+            "content":
+            [
+                {
+                    "value": "Government Bodies"
+                },
+                {
+                    "value": "International Relations"
+                },
+                {
+                    "value": "Political/General News"
+                },
+                {
+                    "value": "Domestic Politics"
+                },
+                {
+                    "value": "Espionage"
+                },
+                {
+                    "value": "National/Public Security"
+                },
+                {
+                    "value": "Politics/International Relations"
+                }
+            ],
+            "class": "static"
+        },
+        {
+            "type": "facets",
+            "label": "factiva-regions",
+            "version": "1",
+            "content":
+            [
+                {
+                    "value": "Somalia"
+                },
+                {
+                    "value": "Ethiopia"
+                },
+                {
+                    "value": "United States"
+                },
+                {
+                    "value": "Africa"
+                },
+                {
+                    "value": "Developing Economies"
+                },
+                {
+                    "value": "East Africa"
+                },
+                {
+                    "value": "North America"
+                }
+            ],
+            "class": "static"
+        },
+        {
+            "type": "facets",
+            "label": "qntfy-categories-annotator",
+            "version": "0.3.0",
+            "content":
+            [
+                {
+                    "value": "political",
+                    "score": 0.1276560755838671
+                },
+                {
+                    "value": "military",
+                    "score": 0.5694533187935844
+                },
+                {
+                    "value": "social",
+                    "score": 0.16842482168587086
+                },
+                {
+                    "value": "economic",
+                    "score": 0.2909574346128775
+                },
+                {
+                    "value": "infrastructure",
+                    "score": 0.013353542054139751
+                },
+                {
+                    "value": "information",
+                    "score": 0.026913966470419687
+                },
+                {
+                    "value": "economic_production",
+                    "score": 0.014451115120853062
+                },
+                {
+                    "value": "institutions",
+                    "score": 0.11994590627705222
+                },
+                {
+                    "value": "leadership",
+                    "score": 0.1663717133715534
+                },
+                {
+                    "value": "transportation",
+                    "score": 0.06291987125889627
+                },
+                {
+                    "value": "economic_distribution",
+                    "score": 0.014717951568838409
+                },
+                {
+                    "value": "economic_consumption",
+                    "score": 0.03433512355714314
+                },
+                {
+                    "value": "economic_informality",
+                    "score": 0.06820309492287363
+                },
+                {
+                    "value": "global_info",
+                    "score": 0.09787103899190545
+                },
+                {
+                    "value": "affinity_groups",
+                    "score": 0.11985570263616181
+                },
+                {
+                    "value": "political_org",
+                    "score": 0.0860893587021829
+                },
+                {
+                    "value": "central_gov",
+                    "score": 0.06217565933541726
+                },
+                {
+                    "value": "military_ind_base",
+                    "score": 0.09628711232811656
+                },
+                {
+                    "value": "climate",
+                    "score": 0.20622668333751437
+                },
+                {
+                    "value": "weather",
+                    "score": 0.08517470537106721
+                },
+                {
+                    "value": "sustainment",
+                    "score": 0.08569448149045023
+                },
+                {
+                    "value": "utilities",
+                    "score": 0.014768936407987312
+                },
+                {
+                    "value": "national_info",
+                    "score": 0.06047394629147401
+                },
+                {
+                    "value": "armed_forces",
+                    "score": 0.12122899375340725
+                },
+                {
+                    "value": "habitability",
+                    "score": 0.11804675557929208
+                },
+                {
+                    "value": "military_short",
+                    "score": 0.015467201678826368
+                },
+                {
+                    "value": "economic_performance",
+                    "score": 0.02626184534997917
+                },
+                {
+                    "value": "internal_security",
+                    "score": 0.15553692687145843
+                },
+                {
+                    "value": "basic_needs",
+                    "score": 0.11437731238840478
+                },
+                {
+                    "value": "defense_infrastructure",
+                    "score": 0.1514893367839791
+                },
+                {
+                    "value": "phys_environment",
+                    "score": 0.16822239831176794
+                }
+            ],
+            "class": "derived"
+        },
+        {
+            "type": "tags",
+            "label": "qntfy-events-annotator",
+            "version": "0.2.1",
+            "content":
+            [
+                {
+                    "offset_start": 36,
+                    "offset_end": 40,
+                    "value": "sell",
+                    "tag": "EconomicActivity"
+                },
+                {
+                    "offset_start": 99,
+                    "offset_end": 102,
+                    "value": "end",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 106,
+                    "offset_end": 113,
+                    "value": "causing",
+                    "tag": "Cause"
+                },
+                {
+                    "offset_start": 197,
+                    "offset_end": 201,
+                    "value": "told",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 282,
+                    "offset_end": 286,
+                    "value": "said",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 364,
+                    "offset_end": 369,
+                    "value": "wants",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 373,
+                    "offset_end": 381,
+                    "value": "transfer",
+                    "tag": "Move"
+                },
+                {
+                    "offset_start": 405,
+                    "offset_end": 410,
+                    "value": "start",
+                    "tag": "Begin"
+                },
+                {
+                    "offset_start": 420,
+                    "offset_end": 424,
+                    "value": "flow",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 439,
+                    "offset_end": 446,
+                    "value": "shifted",
+                    "tag": "Change"
+                },
+                {
+                    "offset_start": 490,
+                    "offset_end": 494,
+                    "value": "have",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 512,
+                    "offset_end": 516,
+                    "value": "stop",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 521,
+                    "offset_end": 534,
+                    "value": "reprogramming",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 602,
+                    "offset_end": 607,
+                    "value": "acted",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 730,
+                    "offset_end": 735,
+                    "value": "wrote",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 744,
+                    "offset_end": 747,
+                    "value": "use",
+                    "tag": "Use"
+                },
+                {
+                    "offset_start": 800,
+                    "offset_end": 806,
+                    "value": "appear",
+                    "tag": "Move"
+                },
+                {
+                    "offset_start": 810,
+                    "offset_end": 813,
+                    "value": "add",
+                    "tag": "Increasing"
+                },
+                {
+                    "offset_start": 885,
+                    "offset_end": 896,
+                    "value": "establishes",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 946,
+                    "offset_end": 950,
+                    "value": "said",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 965,
+                    "offset_end": 969,
+                    "value": "sent",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 1011,
+                    "offset_end": 1016,
+                    "value": "press",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 1136,
+                    "offset_end": 1141,
+                    "value": "wrote",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 1188,
+                    "offset_end": 1196,
+                    "value": "conflict",
+                    "tag": "Conflict"
+                },
+                {
+                    "offset_start": 1252,
+                    "offset_end": 1255,
+                    "value": "war",
+                    "tag": "Conflict"
+                },
+                {
+                    "offset_start": 1389,
+                    "offset_end": 1395,
+                    "value": "oppose",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 1406,
+                    "offset_end": 1413,
+                    "value": "efforts",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 1472,
+                    "offset_end": 1476,
+                    "value": "sign",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 1507,
+                    "offset_end": 1515,
+                    "value": "fighting",
+                    "tag": "Violence"
+                },
+                {
+                    "offset_start": 1530,
+                    "offset_end": 1535,
+                    "value": "annex",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 1595,
+                    "offset_end": 1602,
+                    "value": "insists",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 1615,
+                    "offset_end": 1620,
+                    "value": "given",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 1650,
+                    "offset_end": 1658,
+                    "value": "takeover",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 1755,
+                    "offset_end": 1759,
+                    "value": "told",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 1861,
+                    "offset_end": 1868,
+                    "value": "serving",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 1892,
+                    "offset_end": 1898,
+                    "value": "appear",
+                    "tag": "Move"
+                },
+                {
+                    "offset_start": 1999,
+                    "offset_end": 2004,
+                    "value": "wrote",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2022,
+                    "offset_end": 2029,
+                    "value": "remains",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2052,
+                    "offset_end": 2060,
+                    "value": "involved",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2074,
+                    "offset_end": 2082,
+                    "value": "struggle",
+                    "tag": "Conflict"
+                },
+                {
+                    "offset_start": 2089,
+                    "offset_end": 2098,
+                    "value": "continues",
+                    "tag": "Increasing"
+                },
+                {
+                    "offset_start": 2102,
+                    "offset_end": 2106,
+                    "value": "rage",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2155,
+                    "offset_end": 2166,
+                    "value": "established",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2211,
+                    "offset_end": 2219,
+                    "value": "conflict",
+                    "tag": "Conflict"
+                },
+                {
+                    "offset_start": 2234,
+                    "offset_end": 2239,
+                    "value": "heats",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2261,
+                    "offset_end": 2269,
+                    "value": "reasoned",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2297,
+                    "offset_end": 2302,
+                    "value": "faced",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2308,
+                    "offset_end": 2318,
+                    "value": "abandoning",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2337,
+                    "offset_end": 2345,
+                    "value": "becoming",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2346,
+                    "offset_end": 2354,
+                    "value": "involved",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2393,
+                    "offset_end": 2402,
+                    "value": "continued",
+                    "tag": "Increasing"
+                },
+                {
+                    "offset_start": 2412,
+                    "offset_end": 2418,
+                    "value": "action",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2448,
+                    "offset_end": 2453,
+                    "value": "posed",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2480,
+                    "offset_end": 2490,
+                    "value": "escalation",
+                    "tag": "Increasing"
+                },
+                {
+                    "offset_start": 2509,
+                    "offset_end": 2513,
+                    "value": "said",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2534,
+                    "offset_end": 2538,
+                    "value": "plan",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2542,
+                    "offset_end": 2551,
+                    "value": "reprogram",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2575,
+                    "offset_end": 2577,
+                    "value": "go",
+                    "tag": "Move"
+                },
+                {
+                    "offset_start": 2624,
+                    "offset_end": 2628,
+                    "value": "said",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2638,
+                    "offset_end": 2645,
+                    "value": "ignores",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2671,
+                    "offset_end": 2675,
+                    "value": "move",
+                    "tag": "Move"
+                },
+                {
+                    "offset_start": 2679,
+                    "offset_end": 2685,
+                    "value": "change",
+                    "tag": "Change"
+                },
+                {
+                    "offset_start": 2697,
+                    "offset_end": 2701,
+                    "value": "make",
+                    "tag": "Make"
+                },
+                {
+                    "offset_start": 2718,
+                    "offset_end": 2725,
+                    "value": "binding",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2795,
+                    "offset_end": 2803,
+                    "value": "covering",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2832,
+                    "offset_end": 2836,
+                    "value": "stop",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2858,
+                    "offset_end": 2865,
+                    "value": "request",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2908,
+                    "offset_end": 2912,
+                    "value": "give",
+                    "tag": "Help"
+                },
+                {
+                    "offset_start": 2918,
+                    "offset_end": 2925,
+                    "value": "written",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2932,
+                    "offset_end": 2940,
+                    "value": "approval",
+                    "tag": "PosEmotions"
+                },
+                {
+                    "offset_start": 2953,
+                    "offset_end": 2959,
+                    "value": "action",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 2964,
+                    "offset_end": 2966,
+                    "value": "go",
+                    "tag": "Move"
+                },
+                {
+                    "offset_start": 3001,
+                    "offset_end": 3007,
+                    "value": "leaves",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 3047,
+                    "offset_end": 3060,
+                    "value": "reprogramming",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 3080,
+                    "offset_end": 3087,
+                    "value": "provide",
+                    "tag": "Help"
+                },
+                {
+                    "offset_start": 3158,
+                    "offset_end": 3162,
+                    "value": "stay",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 3195,
+                    "offset_end": 3199,
+                    "value": "said",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 3285,
+                    "offset_end": 3289,
+                    "value": "gave",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 3432,
+                    "offset_end": 3440,
+                    "value": "insisted",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 3525,
+                    "offset_end": 3532,
+                    "value": "refused",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 3536,
+                    "offset_end": 3543,
+                    "value": "provide",
+                    "tag": "Help"
+                },
+                {
+                    "offset_start": 3560,
+                    "offset_end": 3564,
+                    "value": "said",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 3569,
+                    "offset_end": 3576,
+                    "value": "deplore",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 3599,
+                    "offset_end": 3604,
+                    "value": "given",
+                    "tag": "NIL"
+                },
+                {
+                    "offset_start": 3649,
+                    "offset_end": 3658,
+                    "value": "disclosed",
+                    "tag": "NIL"
+                }
+            ],
+            "class": "derived"
+        },
+        {
+            "type": "tags",
+            "label": "qntfy-ner-annotator",
+            "version": "0.2.0",
+            "content":
+            [
+                {
+                    "offset_start": 4,
+                    "offset_end": 10,
+                    "value": "Carter",
+                    "tag": "PERSON"
+                },
+                {
+                    "offset_start": 41,
+                    "offset_end": 48,
+                    "value": "Somalia",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 49,
+                    "offset_end": 53,
+                    "value": "U.S.",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 81,
+                    "offset_end": 87,
+                    "value": "Somali",
+                    "tag": "NORP"
+                },
+                {
+                    "offset_start": 144,
+                    "offset_end": 169,
+                    "value": "the House Foreign Affairs",
+                    "tag": "ORG"
+                },
+                {
+                    "offset_start": 186,
+                    "offset_end": 192,
+                    "value": "Africa",
+                    "tag": "LOC"
+                },
+                {
+                    "offset_start": 215,
+                    "offset_end": 220,
+                    "value": "State",
+                    "tag": "ORG"
+                },
+                {
+                    "offset_start": 221,
+                    "offset_end": 237,
+                    "value": "Edmund S. Muskie",
+                    "tag": "PERSON"
+                },
+                {
+                    "offset_start": 240,
+                    "offset_end": 245,
+                    "value": "Seven",
+                    "tag": "CARDINAL"
+                },
+                {
+                    "offset_start": 268,
+                    "offset_end": 273,
+                    "value": "eight",
+                    "tag": "CARDINAL"
+                },
+                {
+                    "offset_start": 312,
+                    "offset_end": 323,
+                    "value": "$20 million",
+                    "tag": "MONEY"
+                },
+                {
+                    "offset_start": 327,
+                    "offset_end": 338,
+                    "value": "fiscal 1980",
+                    "tag": "DATE"
+                },
+                {
+                    "offset_start": 452,
+                    "offset_end": 467,
+                    "value": "Foreign Affairs",
+                    "tag": "ORG"
+                },
+                {
+                    "offset_start": 661,
+                    "offset_end": 666,
+                    "value": "Kenya",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 671,
+                    "offset_end": 675,
+                    "value": "Oman",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 706,
+                    "offset_end": 711,
+                    "value": "Egypt",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 736,
+                    "offset_end": 742,
+                    "value": "Muskie",
+                    "tag": "PERSON"
+                },
+                {
+                    "offset_start": 755,
+                    "offset_end": 761,
+                    "value": "Somali",
+                    "tag": "NORP"
+                },
+                {
+                    "offset_start": 771,
+                    "offset_end": 778,
+                    "value": "Berbera",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 783,
+                    "offset_end": 792,
+                    "value": "Mogadishu",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 867,
+                    "offset_end": 884,
+                    "value": "the United States",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 920,
+                    "offset_end": 927,
+                    "value": "Somalia",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 973,
+                    "offset_end": 988,
+                    "value": "Muskie Thursday",
+                    "tag": "DATE"
+                },
+                {
+                    "offset_start": 990,
+                    "offset_end": 1006,
+                    "value": "the Soviet Union",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 1017,
+                    "offset_end": 1025,
+                    "value": "Ethiopia",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 1087,
+                    "offset_end": 1091,
+                    "value": "U.S.",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 1110,
+                    "offset_end": 1117,
+                    "value": "Somalia",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 1171,
+                    "offset_end": 1177,
+                    "value": "Somali",
+                    "tag": "NORP"
+                },
+                {
+                    "offset_start": 1178,
+                    "offset_end": 1187,
+                    "value": "Ethiopian",
+                    "tag": "NORP"
+                },
+                {
+                    "offset_start": 1202,
+                    "offset_end": 1210,
+                    "value": "Ethiopia",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 1213,
+                    "offset_end": 1219,
+                    "value": "Ogaden",
+                    "tag": "NORP"
+                },
+                {
+                    "offset_start": 1221,
+                    "offset_end": 1225,
+                    "value": "U.S.",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 1276,
+                    "offset_end": 1293,
+                    "value": "the United States",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 1355,
+                    "offset_end": 1362,
+                    "value": "African",
+                    "tag": "NORP"
+                },
+                {
+                    "offset_start": 1396,
+                    "offset_end": 1403,
+                    "value": "Somalia",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 1421,
+                    "offset_end": 1427,
+                    "value": "Ogaden",
+                    "tag": "LOC"
+                },
+                {
+                    "offset_start": 1441,
+                    "offset_end": 1454,
+                    "value": "John Buchanan",
+                    "tag": "PERSON"
+                },
+                {
+                    "offset_start": 1490,
+                    "offset_end": 1497,
+                    "value": "Somalia",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 1522,
+                    "offset_end": 1526,
+                    "value": "1974",
+                    "tag": "DATE"
+                },
+                {
+                    "offset_start": 1536,
+                    "offset_end": 1544,
+                    "value": "Ethiopia",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 1547,
+                    "offset_end": 1553,
+                    "value": "Ogaden",
+                    "tag": "NORP"
+                },
+                {
+                    "offset_start": 1574,
+                    "offset_end": 1594,
+                    "value": "the State Department",
+                    "tag": "ORG"
+                },
+                {
+                    "offset_start": 1603,
+                    "offset_end": 1610,
+                    "value": "Somalia",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 1715,
+                    "offset_end": 1721,
+                    "value": "Ogaden",
+                    "tag": "LOC"
+                },
+                {
+                    "offset_start": 1723,
+                    "offset_end": 1754,
+                    "value": "the Central Intelligence Agency",
+                    "tag": "ORG"
+                },
+                {
+                    "offset_start": 1764,
+                    "offset_end": 1775,
+                    "value": "subcommitte",
+                    "tag": "ORG"
+                },
+                {
+                    "offset_start": 1776,
+                    "offset_end": 1785,
+                    "value": "this week",
+                    "tag": "DATE"
+                },
+                {
+                    "offset_start": 1803,
+                    "offset_end": 1808,
+                    "value": "three",
+                    "tag": "CARDINAL"
+                },
+                {
+                    "offset_start": 1809,
+                    "offset_end": 1815,
+                    "value": "Somali",
+                    "tag": "NORP"
+                },
+                {
+                    "offset_start": 1833,
+                    "offset_end": 1844,
+                    "value": "up to 1,000",
+                    "tag": "CARDINAL"
+                },
+                {
+                    "offset_start": 1845,
+                    "offset_end": 1851,
+                    "value": "Somali",
+                    "tag": "NORP"
+                },
+                {
+                    "offset_start": 1912,
+                    "offset_end": 1918,
+                    "value": "Ogaden",
+                    "tag": "LOC"
+                },
+                {
+                    "offset_start": 2005,
+                    "offset_end": 2011,
+                    "value": "Muskie",
+                    "tag": "PERSON"
+                },
+                {
+                    "offset_start": 2014,
+                    "offset_end": 2021,
+                    "value": "Somalia",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 2114,
+                    "offset_end": 2123,
+                    "value": "Ethiopian",
+                    "tag": "NORP"
+                },
+                {
+                    "offset_start": 2124,
+                    "offset_end": 2130,
+                    "value": "Ogaden",
+                    "tag": "LOC"
+                },
+                {
+                    "offset_start": 2137,
+                    "offset_end": 2154,
+                    "value": "the United States",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 2190,
+                    "offset_end": 2197,
+                    "value": "Somalia",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 2225,
+                    "offset_end": 2233,
+                    "value": "Ethiopia",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 2271,
+                    "offset_end": 2279,
+                    "value": "American",
+                    "tag": "NORP"
+                },
+                {
+                    "offset_start": 2383,
+                    "offset_end": 2390,
+                    "value": "Somalia",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 2426,
+                    "offset_end": 2432,
+                    "value": "Ogaden",
+                    "tag": "NORP"
+                },
+                {
+                    "offset_start": 2457,
+                    "offset_end": 2474,
+                    "value": "the United States",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 2552,
+                    "offset_end": 2563,
+                    "value": "$20 million",
+                    "tag": "MONEY"
+                },
+                {
+                    "offset_start": 2597,
+                    "offset_end": 2614,
+                    "value": "Stephen J. Solarz",
+                    "tag": "PERSON"
+                },
+                {
+                    "offset_start": 2616,
+                    "offset_end": 2622,
+                    "value": "D-N.Y.",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 2632,
+                    "offset_end": 2637,
+                    "value": "State",
+                    "tag": "ORG"
+                },
+                {
+                    "offset_start": 2732,
+                    "offset_end": 2737,
+                    "value": "House",
+                    "tag": "ORG"
+                },
+                {
+                    "offset_start": 2742,
+                    "offset_end": 2763,
+                    "value": "Senate Appropriations",
+                    "tag": "ORG"
+                },
+                {
+                    "offset_start": 2786,
+                    "offset_end": 2790,
+                    "value": "1979",
+                    "tag": "DATE"
+                },
+                {
+                    "offset_start": 2873,
+                    "offset_end": 2884,
+                    "value": "$20 million",
+                    "tag": "MONEY"
+                },
+                {
+                    "offset_start": 2889,
+                    "offset_end": 2896,
+                    "value": "Somalia",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 3070,
+                    "offset_end": 3075,
+                    "value": "State",
+                    "tag": "ORG"
+                },
+                {
+                    "offset_start": 3111,
+                    "offset_end": 3117,
+                    "value": "Somali",
+                    "tag": "NORP"
+                },
+                {
+                    "offset_start": 3142,
+                    "offset_end": 3148,
+                    "value": "Ogaden",
+                    "tag": "NORP"
+                },
+                {
+                    "offset_start": 3205,
+                    "offset_end": 3221,
+                    "value": "Richard M. Moose",
+                    "tag": "PERSON"
+                },
+                {
+                    "offset_start": 3246,
+                    "offset_end": 3251,
+                    "value": "State",
+                    "tag": "ORG"
+                },
+                {
+                    "offset_start": 3256,
+                    "offset_end": 3263,
+                    "value": "African",
+                    "tag": "NORP"
+                },
+                {
+                    "offset_start": 3281,
+                    "offset_end": 3284,
+                    "value": "CIA",
+                    "tag": "ORG"
+                },
+                {
+                    "offset_start": 3310,
+                    "offset_end": 3327,
+                    "value": "earlier this week",
+                    "tag": "DATE"
+                },
+                {
+                    "offset_start": 3349,
+                    "offset_end": 3356,
+                    "value": "Somalia",
+                    "tag": "GPE"
+                },
+                {
+                    "offset_start": 3382,
+                    "offset_end": 3388,
+                    "value": "Ogaden",
+                    "tag": "LOC"
+                },
+                {
+                    "offset_start": 3391,
+                    "offset_end": 3407,
+                    "value": "State Department",
+                    "tag": "ORG"
+                },
+                {
+                    "offset_start": 3418,
+                    "offset_end": 3431,
+                    "value": "John Trattner",
+                    "tag": "PERSON"
+                },
+                {
+                    "offset_start": 3441,
+                    "offset_end": 3449,
+                    "value": "Thursday",
+                    "tag": "DATE"
+                },
+                {
+                    "offset_start": 3498,
+                    "offset_end": 3503,
+                    "value": "State",
+                    "tag": "ORG"
+                },
+                {
+                    "offset_start": 3508,
+                    "offset_end": 3511,
+                    "value": "CIA",
+                    "tag": "ORG"
+                },
+                {
+                    "offset_start": 3553,
+                    "offset_end": 3559,
+                    "value": "Solarz",
+                    "tag": "PERSON"
+                },
+                {
+                    "offset_start": 3587,
+                    "offset_end": 3590,
+                    "value": "CIA",
+                    "tag": "ORG"
+                }
+            ]
+        }
+    ]
+}
