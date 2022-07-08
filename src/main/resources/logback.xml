@@ -10,6 +10,7 @@
     </appender>
 
     <logger name="Main" level="INFO"/>
+    <logger name="org.apache.kafka.clients" level="WARN"/>
 
     <root level="INFO">
         <appender-ref ref="consoleAppender"/>

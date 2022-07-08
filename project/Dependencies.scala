@@ -28,6 +28,7 @@ object Dependencies {
 
     val spark = Seq( "org.apache.spark" %% "spark-streaming" % sparkVersion % Provided,
                      "org.apache.spark" %% "spark-sql" % sparkVersion % Provided,
+                     "org.apache.spark" %% "spark-sql-kafka-0-10" % sparkVersion,
                      "org.apache.spark" %% "spark-streaming-kafka-0-10" % sparkVersion )
 
     val sparkArango = Seq( "com.arangodb" %% "arangodb-spark-datasource-3.1" % sparkArangoVersion )

@@ -3,7 +3,7 @@ import app.iria.pipeline.spark.Schemas
 import app.iria.pipeline.utils.Kafka
 import app.iria.utils.temporal.OffsetDateTimes
 import com.typesafe.config.{Config, ConfigFactory}
-import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.{Dataset, Row, SparkSession}
 
 
 object Main {
@@ -22,15 +22,22 @@ object Main {
 
         val stream = {
             spark.readStream
-              .schema( Schemas.RAW_FEED_SCHEMA )
               .format( "kafka" )
-              .options( Kafka.mapConfig( kafkaConfig ) )
-              .option( "subscribe", kafkaConfig.getString( "input.topic" ) )
+              .option( "kafka.bootstrap.servers", kafkaConfig.getString( "bootstrap.servers" ) )
+              .option( "subscribe", kafkaConfig.getString( "input.topics" ) )
               .load()
         }
 
+
         stream.printSchema()
-        stream.show()
+
+        val ds = stream
+          .writeStream
+          .format( "console" )
+          .foreachBatch( ( ds : Dataset[ Row ], l : Long ) => {
+              ds.foreach( r => println( s"${r.getAs[ String ]( "key" )}" ) )
+          } )
+          .start()
 
         spark.streams.awaitAnyTermination()
     }

@@ -2,15 +2,47 @@ version: '3.7'
 
 services:
 
+  ingestion-pipeline:
+    image: magiplatform/spark:latest
+    container_name: ingestion-pipeline
+    entrypoint: tail -f /dev/null
+    environment:
+      SPARK_MASTER_HOST: spark-master
+      SPARK_NUM_EXECUTORS: 2
+      SPARK_EXECUTOR_CORES: 2
+      SPARK_EXECUTOR_MEMORY: 2g
+      SPARK_DRIVER_MEMORY: 2g
+      SPARK_DAEMON_MEMORY: 2g
+      SPARK_NETWORK_TIMEOUT: 100000
+      SPARK_JOB_PARALLELISM: 512
+      SPARK_DRIVER_MAX_RESULT_SIZE: 1g
+      SPARK_APP_DEBUG: "false"
+      ARANGO_HOST: arangodb
+    volumes:
+      - ./scripts:/opt/app/bin
+      - ./target/scala-2.12/ingestion-pipeline-assembly-0.1.0-SNAPSHOT.jar:/opt/spark/jars/app.jar
+    depends_on:
+      - spark-master
+      - kafka
+      - zookeeper
+    networks:
+      - spark
+
   zookeeper:
     image: wurstmeister/zookeeper:latest
+    container_name: zookeeper
+    hostname: zookeeper
     ports:
       - "2181:2181"
     restart: always
+    networks:
+      - spark
 
   kafka:
     image: wurstmeister/kafka:2.13-2.8.1
+    container_name: kafka
     hostname: kafka
+    restart: always
     ports:
       - "9092:9092"
     environment:
@@ -22,17 +54,20 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
     depends_on:
       - zookeeper
-    restart: always
+    networks:
+      - spark
 
   spark-master:
     container_name: spark-master
     hostname: spark-master
-    image: magiplatform/spark:spark-3.1.2
+    image: magiplatform/spark:latest
     entrypoint: /opt/app/bin/master.sh
     environment:
+      SPARK_CORES_MAX: 4
       SPARK_NUM_EXECUTORS: 2
       SPARK_MASTER_HOST: spark-master
       SPARK_DRIVER_MEMORY: 4g
+      SPARK_EXECUTOR_CORES: 4
       SPARK_EXECUTOR_MEMORY: 4g
       SPARK_NETWORK_TIMEOUT: 10000
       ARANGO_HOST: arangodb
@@ -42,7 +77,7 @@ services:
       - "6066:6066"
     volumes:
       - ./scripts:/opt/app/scripts
-      - ./target/scala-2.12/dart-spark-odinson-assembly-0.1.0-SNAPSHOT.jar:/opt/spark/jars/app.jar
+      - ./target/scala-2.12/ingestion-pipeline-assembly-0.1.0-SNAPSHOT.jar:/opt/spark/jars/app.jar
     networks:
       - spark
     depends_on:
@@ -51,18 +86,19 @@ services:
   spark-worker-1:
     container_name: spark-worker-1
     hostname: spark-worker-1
-    image: magiplatform/spark:spark-3.1.2
+    image: magiplatform/spark:latest
     entrypoint: /opt/app/bin/worker.sh
     environment:
+      SPARK_CORES_MAX: 4
       SPARK_NUM_EXECUTORS: 2
-      SPARK_DRIVER_MEMORY: 4g
-      SPARK_EXECUTOR_MEMORY: 4g
+      SPARK_DRIVER_MEMORY: 2g
+      SPARK_EXECUTOR_MEMORY: 2g
       SPARK_NETWORK_TIMEOUT: 10000
     ports:
       - "7078:7078"
       - "8081:8081"
     volumes:
-      - ./target/scala-2.12/dart-spark-odinson-assembly-0.1.0-SNAPSHOT.jar:/opt/spark/jars/app.jar
+      - ./target/scala-2.12/ingestion-pipeline-assembly-0.1.0-SNAPSHOT.jar:/opt/spark/jars/app.jar
     depends_on:
       - spark-master
     networks:
@@ -70,7 +106,10 @@ services:
 
   console:
     image: docker.causeex.com/dart/centos-jdk:jdk8
+    container_name: console
     entrypoint: tail -f /dev/null
+    volumes:
+      - ./docs/pdf:/opt/app/data
     networks:
       - spark
 
