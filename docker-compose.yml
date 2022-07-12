@@ -18,6 +18,8 @@ services:
       SPARK_DRIVER_MAX_RESULT_SIZE: 1g
       SPARK_APP_DEBUG: "false"
       ARANGO_HOST: arangodb
+    ports:
+      - "6308:6308"
     volumes:
       - ./scripts:/opt/app/bin
       - ./target/scala-2.12/ingestion-pipeline-assembly-0.1.0-SNAPSHOT.jar:/opt/spark/jars/app.jar

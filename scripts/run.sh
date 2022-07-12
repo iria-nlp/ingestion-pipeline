@@ -2,7 +2,8 @@
 
 DEBUG_CONFIG=''
 if [ "$SPARK_APP_DEBUG" == true ]; then
-  DEBUG_CONFIG='-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=6308'
+  echo 'WARNING - starting application with java debugger enabled'
+  DEBUG_CONFIG='-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=0.0.0.0:6308'
 fi
 
 if [ -z "$PROGRAM_ARGS" ]; then
